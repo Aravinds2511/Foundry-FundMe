@@ -1,35 +1,7 @@
 # Foundry Fund Me
 
-- [Foundry Fund Me](#foundry-fund-me)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-    - [Optional Gitpod](#optional-gitpod)
-- [Usage](#usage)
-  - [Deploy:](#deploy)
-  - [Testing](#testing)
-    - [Test Coverage](#test-coverage)
-- [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
-  - [Scripts](#scripts)
-    - [Withdraw](#withdraw)
-  - [Estimate gas](#estimate-gas)
-- [Formatting](#formatting)
-- [Thank you!](#thank-you)
-
-
-
-
-
-## Quickstart
-
-```
-git clone https://github.com/Cyfrin/foundry-fund-me-f23
-cd foundry-fund-me-f23
-forge build
-```
-
-
 # Usage
+This is a crowdfunding contract to fund and withdraw ETH...
 
 ## Deploy:
 
