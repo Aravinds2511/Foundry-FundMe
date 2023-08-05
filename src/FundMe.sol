@@ -1,3 +1,4 @@
+// main contract Fund Me
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
@@ -83,18 +84,6 @@ contract FundMe {
         }("");
         require(callSuccess, "Call failed");
     }
-
-    // Explainer from: https://solidity-by-example.org/fallback/
-    // Ether is sent to contract
-    //      is msg.data empty?
-    //          /   \
-    //         yes  no
-    //         /     \
-    //    receive()?  fallback()
-    //     /   \
-    //   yes   no
-    //  /        \
-    //receive()  fallback()
 
     fallback() external payable {
         fund();
